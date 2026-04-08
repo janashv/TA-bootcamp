@@ -1,4 +1,4 @@
-package bootcampexcercise.module2;
+package bootcampexcercise.module2.activity;
 
 public class FindLargest {
     public static void main(String[] args) {

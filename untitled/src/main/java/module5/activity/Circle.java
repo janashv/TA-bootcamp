@@ -1,18 +1,23 @@
 package module5.activity;
 
+
+
 public class Circle extends Shape {
 
-    double radius = 7;
+        double radius;
 
-//method for area
-    @Override
-    public double calculateArea() {
-        return Math.PI * radius * radius;
-    }
+        //constructor
+        public Circle(double radius) {
+            this.radius = radius;
+        }
 
-    //method for perimeter
-    @Override
-    public double calculatePerimeter() {
-        return 2 * Math.PI * radius;
+        @Override
+        public double calculateArea() {
+            return Math.PI * radius * radius;
+        }
+
+        @Override
+        public double calculatePerimeter() {
+            return 2 * Math.PI * radius;
+        }
     }
-}
